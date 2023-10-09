@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 2612791,
+    "Category": {
+      "Id": 0,
+      "Name": "Dog"
+    },
+    "Name": "Rex",
+    "PhotoUrls": [
+      "string"
+    ],
+    "Tags": [
+      {
+        "Id": 0,
+        "Name": "PXYF"
+      }
+    ],
+    "Status": "available"
+  },
+  {
+    "Id": 2612792,
+    "Category": {
+      "Id": 0,
+      "Name": "Dog"
+    },
+    "Name": "Puppy",
+    "PhotoUrls": [
+      "string"
+    ],
+    "Tags": [
+      {
+        "Id": 0,
+        "Name": "RTEW"
+      }
+    ],
+    "Status": "available"
+  }
+] 
