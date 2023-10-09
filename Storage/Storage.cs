@@ -10,7 +10,7 @@ namespace Storage
     {
         public static Pet GetDataForCreatingPet(string petCategory, string petName)
         {
-            string petsString = File.ReadAllText($"C:\\Users\\rusla\\Desktop\\SwaggerPetStore\\Storage\\Data\\{ petCategory}.json");
+            string petsString = File.ReadAllText($"../../../../Storage/Data/{ petCategory}.json");
             List<Pet> pets = JsonSerializer.Deserialize<List<Pet>>(petsString);
             return pets.Find(pet => pet.Name == petName);
         }
